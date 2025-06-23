@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz Starter Code</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1> ❧ Which Manga Should You Read Next? ❧ </h1>
+		<h3>Instructions:</h3>
+    <ul>
+         <li>Read Each Question Carefully: You'll be presented with a series of questions, each with two answer choices.</li> 
+          <li>Choose the Option That Best Describes You: Select the answer that you feel best matches your preferences or interests.</li>
+    </ul>
+    <p>Sorry, these images seem a little unrelated-I used stock/non-copyrighted photos!</p>
+	</header>
+
+	<main>
+
+		<h2>What genre do you prefer?</h2>
+		<div class="question">
+
+			<div class="answer-choice card">
+				<img src="assets/greek gods.jpg" alt="Monument statue greek gods figures">
+        <br>
+        <button id="q1a1">Action-Packed</button>
+      </div>
+
+      <div class="answer-choice card">
+        <img src="assets/girl.png" class="portrait" alt="Black ink drawing of a girl in forest">
+        <br>
+        <button id="q1a2">Slice-of-Life</button>
+      </div>
+
+    </div> 
+    
+    <h2>Where does your favorite stories take place?</h2>
+    <div class="question">
+
+      <div class="answer-choice card">
+        <img src="assets/city.png" alt="City of buildings">
+        <br>
+        <button id="q2a1">Modern Settings</button>
+      </div>
+
+      <div class="answer-choice card">
+        <img src="assets/fantasy.png" class="portrait" alt="Black ink drawing of giant bird and human">
+        <br>
+        <button id="q2a2">Fantasy Worlds</button>
+      </div>
+
+    </div> 
+    
+    <h2>What type of plot do you prefer?</h2>
+    <div class="question">
+
+      <div class="answer-choice card">
+        <img src="assets/inkblot.png" alt="Maroon ink blot">
+        <br>
+        <button id="q3a1">Complex Plots</button>
+      </div>
+
+      <div class="answer-choice card">
+        <img src="assets/winter road.jpg" alt="Winter road">
+        <br>
+        <button id="q3a2">Straightforward Stories</button>
+      </div>
+    </div>
+      <h2>What kind of tone in a story do you like?</h2>
+      <div class="question">
+
+        <div class="answer-choice card">
+          <img src="assets/silly.jpg" alt="Horse with silly eyes drawn on its forehead">
+          <br>
+          <button id="q4a1">A lot of Humor</button>
+        </div>
+
+        <div class="answer-choice card">
+          <img src="assets/foggy forest.jpg" alt="Black and white picture of foggy forest">
+          <br>
+          <button id="q4a2">More Serious Tones</button>
+        </div>
+
+    </div> 
+    
+    <h2>Do you tend to read more romance than stories based on friendships?</h2>
+      <div class="question">
+
+        <div class="answer-choice card">
+          <img src="assets/beach.jpg" alt="Couple at the beach">
+          <br>
+          <button id="q5a1">Romance</button>
+        </div>
+
+        <div class="answer-choice card">
+          <img src="assets/friends.jpg" alt="Friends playing shadow in grass">
+          <br>
+          <button id="q5a2">Friendships</button>
+        </div>
+
+    </div> 
+    
+    <h2 id="result">Your Result Is...</h2>
+    <button id="restart">Restart</button>
+    
+  </main>
+  </body>
+</html>

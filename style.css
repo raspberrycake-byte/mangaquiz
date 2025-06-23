@@ -1,0 +1,94 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em; 
+  background-color: #d1be9c;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #426b69;
+}
+
+h2 {
+  margin-top: 2em; 
+  color: #426b69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: center;
+  
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 30vw;
+  align-items: center;
+}
+
+/* STYLE BUTTON */
+button{
+  padding: 10px 20px;
+  display: block;
+  background-color: #9ec5ab;
+  border:none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin:auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; 
+}
+button:active{
+  
+  transform: scale(0.90);
+}
+.card{
+  background-color: #e3e7d3;
+  border: 3px solid #533e2d;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.card:hover img{
+  /*background-color: white;
+  transition: 1s all ease;*/
+  transform: scale(1.05);
+  transition: 1s all ease;
+}
+
+/*basically the container*/
+.question{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: center;
+}
+
+img{
+  width: 100%;
+  border-radius: 1px;
+
+  
+}
+
+button:hover{
+  background-color: white;
+}
