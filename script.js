@@ -38,6 +38,7 @@ q5a2.addEventListener("click", shounenAdd);
 
 /*shounen function*/
 function shounenAdd(){
+  event.target.disabled = true;
   shounenScore +=1;
   numQuestion += 1;
   
@@ -52,6 +53,7 @@ function shounenAdd(){
 
 /*shoujo function*/
 function shoujoAdd(){
+  event.target.disabled = true;
   shoujoScore +=1;
   numQuestion += 1;
   
@@ -66,10 +68,10 @@ function shoujoAdd(){
 
 function updateResult(){
   if (shounenScore > shoujoScore && shounenScore >=3){
-    result.innerHTML = "You might like Attack on Titan, Fullmetal Alchemist: Brotherhood, and Code Geass: Lelouch of the Rebellion!";
+    result.innerHTML = "You might like Hunter X Hunter, Jujutsu Kaisen, Fullmetal Alchemist: Brotherhood, and Code Geass!";
     console.log("You might like Shounen!");
   } else if (shounenScore < shoujoScore && shoujoScore >=3){
-    result.innerHTML = "You might like Fruits Basket, Ao Haru Ride, A Sign of Affection, Chihayafuru, Skip Beat!, Kimi ni Todoke, and Ouran Host High School Club!";
+    result.innerHTML = "You might like Fruits Basket, Chihayafuru, Skip Beat!, and Kimi ni Todoke!";
     console.log("You might like Shoujo!");
   }
 }
